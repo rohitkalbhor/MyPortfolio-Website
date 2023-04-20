@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,227 +9,237 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/78405f1224.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
-    <div class="container">
-        <nav>
-            <img src="images/loggo.png" class="loggo">
-            <ul id="sidmenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Service</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>Java Developer</p>
-            <h1>Hi, I'm<span> Rohit</span><br> Kalbhor From India</h1>
-        </div>
-    </div>  
-</div>
-<!-- ---------------------Abut---------------------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/user.png" >
+        <div class="container">
+            <nav>
+                <img src="images/loggo.png" class="loggo">
+                <ul id="sidmenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Java Developer</p>
+                <h1>Hi, I'm<span> Rohit</span><br> Kalbhor From India</h1>
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">Abut Me</h1>
-                <p>As a Java developer with a passion for creating innovative solutions, I am
-                    seeking an entry-level position in software development. I developed a
-                    strong foundation in Java programming and gained hands-on experience
-                    in creating and testing software applications.</p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <!--<p class="tab-links" onclick="opentab('experience')">Experience</p>-->
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+    </div>
+    <!-- ---------------------Abut---------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>Java</span><br>core java,advanced java</li>
-                        <li><span>Server Side Scripting</span><br>Servlet, jsp</li>
-                        <li><span>Web Technologies</span><br>Html, CSS</li>
-                        <li><span>Database</span><br> MySQL, PostgreSQL</li>
-                        <li><span>Java Frameworks</span><br>Spring Boot, Hibernate, Spring MVC</li>
-                        <li><span>Version Control Tool</span><br>Git and Github</li>
-                        <li><span>IDE's</span><br>Eclips, STS, Intellij, VS-Code </li>
-                    </ul>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Abut Me</h1>
+                    <p>As a Java developer with a passion for creating innovative solutions, I am
+                        seeking an entry-level position in software development. I developed a
+                        strong foundation in Java programming and gained hands-on experience
+                        in creating and testing software applications.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>core java,advanced java</li>
+                            <li><span>Server Side Scripting</span><br>Servlet, jsp</li>
+                            <li><span>Web Technologies</span><br>Html, CSS</li>
+                            <li><span>Database</span><br> MySQL, PostgreSQL</li>
+                            <li><span>Java Frameworks</span><br>Spring Boot, Hibernate, Spring MVC</li>
+                            <li><span>Version Control Tool</span><br>Git and Github</li>
+                            <li><span>IDE's</span><br>Eclips, STS, Intellij, VS-Code </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>2021-2022</span><br>Laxmi Equipment - Design Engineer</li>
+                            <li><span>2020-2021</span></li>Eton - Production Engineer
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>B.E -DY PATIL College Of Engineering</li>
+                            <li><span>2015-16</span><br>Diploma -Siddhant College Of Engineering</li>
+                            <!-- <li><span>Java Frameworks</span><br>Spring Boot, Hibernate, Spring MVC</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Areas Of Expertise </h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Server Side Web Application</h2>
+                    <p>Server-side scripts are programs that run on a web server to generate dynamic web pages, creating
+                        a unique experience for each user. These scripts form the basic framework for back-end web
+                        development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>A database management system (DBMS) is software to create and manage databases, allowing users to
+                        create, read, update and delete data in a database.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>API Devlopment</h2>
+                    <p> API (Application Programming Interface) is a collection of instructions, and requirements that
+                        let a software or mobile application utilize the features/services of other applications,
+                        platform or devices for exceptional services.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/hotel1.jpg">
+                    <div class="layer">
+                        <h3>Hotel Rating Service Management</h3>
+                        <p>This is microservice project bulid by using spring boot.Microservice
+                            helps in breaking the application and build a logically
+                            independent smaller applications</p>
+                        <a href="https://github.com/rohitkalbhor/Hotel-Service-web"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/smartcontact.png">
+                    <div class="layer">
+                        <h3>Contact Management App</h3>
+                        <p>Contact management software typically allows you to make entries for
+                            each of your contacts. This can include contact information such as a
+                            name, phone number, email address, or company.
+                            The tools organize this information in a way that makes it easy for you to
+                            find the entries again. The data may also be searchable. </p>
+                        <a href="https://github.com/rohitkalbhor/Smart-Contact"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Tech Blog</h3>
+                        <p>A technical blog stands out from a regular blog in that it focuses on a technical subject.
+                            Typically, it traces and thus explains the development/ rise or the functioning of a
+                            particula
+                            r thing, say a technical invention or an application. </p>
+                        <a href="https://github.com/rohitkalbhor/TechBlog"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
 
-                <!--<div class="tab-contents" id="experience">
-                    <ul>
-                        <li><span>2022-2023</span><br>Starcentauri Technologies Pvt Ltd- Internship</li>
-                        <li><span>2021-2022</span><br>Laxmi Equipment - Design Engineer</li>
-                         <li><span>Java Frameworks</span><br>Spring Boot, Hibernate, Spring MVC</li> 
-                    </ul>
-                </div>-->
-
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2020</span><br>B.E -DY PATIL College Of Engineering</li>
-                        <li><span>2015-16</span><br>Diploma -Siddhant College Of Engineering</li>
-                        <!-- <li><span>Java Frameworks</span><br>Spring Boot, Hibernate, Spring MVC</li> -->
-                    </ul>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------------------------contact---------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kalbhorrohit95@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9075391707</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://appinventiv.com/blog/complete-guide-to-api-development/&amp;title=A Complete Guide to API Development – Importance, Working, Tools, Terminology and best Practices"
+                            target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/ROHIT KALBHOR.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- ---------------------------services--------------------- -->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">Areas of expertise </h1>
-        <div class="service-list">
-           <div>
-            <i class="fa-solid fa-globe"></i>
-            <h2>Server Side Web Application</h2>
-            <p>Server-side scripts are programs that run on a web server to generate dynamic web pages, creating a unique experience for each user. These scripts form the basic framework for back-end web development.</p>
-            <a href="#">Learn more</a>
-           </div>
-           <div>
-            <i class="fa-solid fa-database"></i>
-            <h2>Database Management</h2>
-            <p>A database management system (DBMS) is software to create and manage databases, allowing users to create, read, update and delete data in a database.</p>
-            <a href="#">Learn more</a>
-           </div>
-           <div>
-            <i class="fa-brands fa-app-store"></i>
-            <h2>API Devlopment</h2>
-            <p> API (Application Programming Interface) is a collection of instructions, and requirements that let a software or mobile application utilize the features/services of other applications, platform or devices for exceptional services.</p>
-            <a href="#">Learn more</a>
-           </div> 
-        </div> 
-    </div>
-</div>
-<!-- ---------------------------------portfolio---------------------------------- -->
-<div id="portfolio">
-    <div class="container">
-       <h1 class="sub-title">My Work</h1> 
-       <div class="work-list">
-        <div class="work">
-            <img src="images/hotel1.jpg" >
-            <div class="layer">
-                <h3>Hotel Rating Service Management</h3>
-                <p>This is microservice project bulid by using spring boot.Microservice
-                     helps in breaking the application and build a logically
-                    independent smaller applications</p>
-                    <a href="https://github.com/rohitkalbhor/Hotel-Service-web"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </div>
+        <div class="copyright">
+            <p>Copyright © Rohit india,Inc All rights reserved</p>
         </div>
-        <div class="work">
-            <img src="images/smartcontact.png" >
-            <div class="layer">
-                <h3>Contact Management App</h3>
-                <p>Contact management software typically allows you to make entries for
-                    each of your contacts. This can include contact information such as a
-                    name, phone number, email address, or company.
-                    The tools organize this information in a way that makes it easy for you to
-                    find the entries again. The data may also be searchable. </p>
-                    <a href="https://github.com/rohitkalbhor/Smart-Contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </div>
-        </div>
-        <div class="work">
-            <img src="images/work-2.png" >
-            <div class="layer">
-                <h3>Tech Blog</h3>
-                <p>A technical blog stands out from a regular blog in that it focuses on a technical subject.
-                     Typically, it traces and thus explains the development/ rise or the functioning of a 
-                     particula
-                     r thing, say a technical invention or an application. </p>
-                    <a href="https://github.com/rohitkalbhor/TechBlog"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-            </div>
-        </div>
-        
-       </div>
-       <a href="#" class="btn">See more</a>
     </div>
-</div>
-<!-- ---------------------------contact---------------------------------- -->
-<div id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i>kalbhorrohit95@gmail.com</p>
-            <p><i class="fa-solid fa-square-phone"></i>9075391707</p>
-            <div class="social-icons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://appinventiv.com/blog/complete-guide-to-api-development/&amp;title=A Complete Guide to API Development – Importance, Working, Tools, Terminology and best Practices" target="_blank" rel="nofollow"><i class="fa-brands fa-linkedin"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-            </div>
-            <a href="images/ROHIT KALBHOR.pdf" download class="btn btn2">Download CV</a>
-        </div>
-        <div class="contact-right">
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
-        </div>
-      </div>  
-    </div>
-    <div class="copyright">
-        <p>Copyright © Rohit india,Inc All rights reserved</p>
-    </div>
-</div>
-<script>
+    <script>
 
-var tablinks = document.getElementsByClassName("tab-links");
-var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");  
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");  
+
+
+    </script>
+    <script>
+        var sidmenu = document.getElementById("sidmenu");
+
+        function openmenu() {
+            sidmenu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-
-
-</script>
-<script>
-     var sidmenu = document.getElementById("sidmenu");
-
-     function openmenu(){
-        sidmenu.style.right = "0";
-     }
-     function closemenu(){
-        sidmenu.style.right = "-200px";
-     }
-</script>
-<form name="submit-to-google-sheet">
-    <!-- <input name="email" type="email" placeholder="email" required>
+        function closemenu() {
+            sidmenu.style.right = "-200px";
+        }
+    </script>
+    <form name="submit-to-google-sheet">
+        <!-- <input name="email" type="email" placeholder="email" required>
     <button type="submit">Send</button> -->
-  </form>
-  
-  <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyt9ITLspArY3KLs-YX3sxUE55WaY3eX7vD0-xx5zmfDXHiy4j1c8zBTas43-f_yTQ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg =document.getElementById("msg")
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyt9ITLspArY3KLs-YX3sxUE55WaY3eX7vD0-xx5zmfDXHiy4j1c8zBTas43-f_yTQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
 
 
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML ="Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    </script>
 </body>
-</html> 
+
+</html>
